@@ -1,0 +1,58 @@
+body{
+    background-color: thistle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#form{
+    background-color:  rgb(245, 213, 245);
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 1px 1px 2px 
+}
+
+.form-control{
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.form-control label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+h1{
+    text-shadow: 3px;
+    color: tomato;
+    text-decoration: underline;
+}
+
+.form-control input
+.form-control select
+.form-control textarea{
+    border: 1px  solid rebeccapurple;
+    border-radius: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+
+.form-control input[type="radio"]
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+
+button{
+    background-color: #05c46b;
+    border: 1px solid #777;
+    font-family: monospace;
+    font-size: large;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+}

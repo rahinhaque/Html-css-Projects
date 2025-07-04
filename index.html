@@ -4,31 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey-Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Survey-Form</h1>
 
     <!-- creating form -->
 
-    <form action="Form">
+    <form action="Form" id="form">
         <!-- details -->
 
-       <div>
+       <div class="form-control">
         <label for="Name" id="label-name">Name</label>
         <input type="text" name="" id="Name" placeholder="Enter Your Name">
        </div> 
 
-       <div>
+       <div class="form-control">
         <label for="email" id="label-email">Email</label>
         <input type="email" name="" id="Email" placeholder="Enter Your Email">
        </div>
 
-       <div>
+       <div class="form-control">
         <label for="age" id="label-age">Age</label>
         <input type="text" name="" id="age" placeholder="Enter Your Age">
        </div>
 
-       <div>
+       <div class="form-control">
         <label for="role" id="label-role">Which Role best describes You</label>
         <select name="role" id="role">
             <option value="students">students</option>
@@ -37,7 +38,7 @@
             <option value="Others">Others</option>
         </select>
        </div>
-       <div>
+       <div class="form-control">
         <label for="Recommand1">Would YOu REcommand This page to your Friends?</label>
         <label ><input type="radio" name="Recommand" id="Recommand1">Yes
         </label>
@@ -50,7 +51,7 @@
         
        </div>
 
-       <div>
+       <div class="form-control">
         <label for="">Language and frameworks you know
             <small>[Check all that applies]</small>
         </label>
@@ -84,7 +85,7 @@
         
        </div>
 
-       <div>
+       <div class="form-control">
         <label for="comment">Enter Your Comment here</label>
         <textarea name="comment" id="cmnt1" placeholder="Enter your opinion here"></textarea>
        </div>
